@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
   let Afont = 0
   $('body').click(function(e) {
     // const a = ['❤富强❤', '❤民主❤', '❤文明❤', '❤和谐❤', '❤自由❤', '❤平等❤', '公正', '法治', '爱国', '敬业', '诚信', '友善']
-    const language = ['C++', 'Python', 'PHP', 'Java', 'HTML', 'CSS', 'JavaScript', 'C#', 'MySQL', 'MongoDB', 'Linux', 'Ruby', 'Go', 'Swift']
+    const language = ['❤富强❤', '❤民主❤', 'C++', 'Python', '❤文明❤', '❤和谐❤', 'PHP', 'Java', '❤和谐❤', '❤自由❤', '❤平等❤', 'HTML', 'CSS', 'JavaScript', 'C#', 'MySQL', '公正', '法治', '爱国', 'MongoDB', 'Linux', '敬业', '诚信', '友善']
     const x = e.pageX
     const y = e.pageY
     const $i = $('<span/>').text(language[Afont])
